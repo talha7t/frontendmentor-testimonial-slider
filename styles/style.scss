@@ -1,0 +1,101 @@
+// - Dark Blue: hsl(240, 38%, 20%)
+// - Grayish Blue: hsl(240, 18%, 77%)
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+}
+
+#container {
+  margin: 1rem 0.5rem;
+  padding: 2rem 0.5rem;
+}
+
+.centered-element {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+/*-----------------------------------------
+              Imgaes Section
+-------------------------------------------*/
+
+.image-container {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.testimonial__image {
+  height: 80%;
+  width: 80%;
+}
+
+.person {
+  z-index: 2;
+  top: 10%;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2), 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.pattern {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+//buttons
+
+.button-container {
+  position: absolute;
+  bottom: 5%;
+  transform: translateX(-50%);
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 35px;
+  height: 3rem;
+  z-index: 3;
+  .btn {
+    margin: 0 1.2rem;
+  }
+}
+
+/*----------------------------------------------------
+                    TestiomniL Text
+------------------------------------------------------*/
+
+.pattern-quotes {
+  height: 4rem;
+}
+
+.testimonial-text {
+  margin: 5rem 1rem 0;
+}
+.user-response {
+  color: rgb(148, 139, 139);
+  font-size: 1.2rem;
+}
+
+.user-info {
+  margin: 1.5rem 0;
+}
+
+.user-name {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.user-role {
+  text-align: center;
+  color: rgb(148, 139, 139);
+  font-size: 1.2rem;
+}
+
+.pattern-curve {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4rem;
+  z-index: -1;
+}
